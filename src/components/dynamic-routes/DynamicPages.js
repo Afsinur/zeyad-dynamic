@@ -2,9 +2,9 @@ import { useParams } from "react-router-dom";
 
 import Classic24kHoddieSignatureEditrion from "../../pages/product/Classic24kHoodieSignatureEdition";
 import ClassicMafiaHoodie from "../../pages/product/ClassicMafiaHoodie";
-import ClassicMafiaLongSleave from "../../pages/product/ClassicMafiaLongSleave";
+import ClassicMafiaLongSleeve from "../../pages/product/ClassicMafiaLongSleeve";
 import ClassicMafiaTee from "../../pages/product/ClassicMafiaTee";
-import Classic24kLongSleave from "../../pages/product/Classic24kLongSleave";
+import Classic24kLongSleeve from "../../pages/product/Classic24kLongSleeve";
 import Classic24kTee from "../../pages/product/Classic24kTee";
 
 const DynamicPages = () => {
@@ -16,8 +16,8 @@ const DynamicPages = () => {
   if (params.page === "ClassicMafiaHoodie") {
     return <ClassicMafiaHoodie />;
   }
-  if (params.page === "ClassicMafiaLongSleave") {
-    return <ClassicMafiaLongSleave />;
+  if (params.page === "ClassicMafiaLongSleeve") {
+    return <ClassicMafiaLongSleeve />;
   }
   if (params.page === "ClassicMafiaTee") {
     return <ClassicMafiaTee />;
@@ -25,8 +25,8 @@ const DynamicPages = () => {
   if (params.page === "Classic24kTee") {
     return <Classic24kTee />;
   }
-  if (params.page === "Classic24KLongSleave") {
-    return <Classic24kLongSleave />;
+  if (params.page === "Classic24KLongSleeve") {
+    return <Classic24kLongSleeve />;
   }
 };
 

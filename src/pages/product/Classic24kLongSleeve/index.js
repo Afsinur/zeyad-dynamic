@@ -15,7 +15,7 @@ const Classic24kLongSleave = () => {
 
   let imgDataArr = [
     {
-      name_: "Classic 24k Long Sleave",
+      name_: "Classic 24k Long Sleeve",
       price_: "$48.98",
       colors_: "white, black, yellow, gray, pink, beige, gold, purple, blue",
       sizes_: ["S", "M", " L"],

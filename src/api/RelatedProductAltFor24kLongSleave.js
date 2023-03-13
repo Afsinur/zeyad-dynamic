@@ -15,10 +15,10 @@ export const RelatedProductData = [
   },
   {
     onLoadImg: "/img/topProductImage/02Product_home.jpg",
-    onLoadTitle: "Classic Mafia Long Sleave",
+    onLoadTitle: "Classic Mafia Long Sleeve",
     onLoadSubTitles: "$27.98",
     hoverSubTitles: ["s", "m", "l"],
-    customize: "ClassicMafiaLongSleave",
+    customize: "ClassicMafiaLongSleeve",
   },
   {
     onLoadImg: "/img/bottomProductImage/04BottomProduct_home.jpg",

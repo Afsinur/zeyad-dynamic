@@ -158,19 +158,19 @@ function RightImg() {
       />
 
       <Link
-        to="/product/ClassicMafiaLongSleave"
+        to="/product/ClassicMafiaLongSleeve"
         className="absolute-links absolute-link-1"
         style={{ textTransform: "uppercase" }}
       >
-        {"[1]"} classic mafia long sleave
+        {"[1]"} classic mafia long sleeve
       </Link>
 
       <Link
-        to="/product/Cassis24kLongSleave"
+        to="/product/Classic24KLongSleeve"
         className="absolute-links absolute-link-2"
         style={{ textTransform: "uppercase" }}
       >
-        {"[2]"} classic 24k long sleave
+        {"[2]"} classic 24k long sleeve
       </Link>
     </div>
   );

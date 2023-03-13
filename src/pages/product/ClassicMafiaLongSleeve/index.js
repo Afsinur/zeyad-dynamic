@@ -6,7 +6,7 @@ import Customize from "../../../components/customize/Customize";
 const ClassicMafiaLongSleave = () => {
   let imgDataArr = [
     {
-      name_: "Classic Mafia Long Sleave",
+      name_: "Classic Mafia Long Sleeve",
       price_: "$48.98",
       colors_: "white, black, yellow, gray, pink, beige, gold, purple, blue",
       sizes_: ["S", "M", " L"],

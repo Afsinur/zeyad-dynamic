@@ -8,10 +8,10 @@ export const TopHeaderProduct = [
   },
   {
     onLoadImg: "/img/topProductImage/02Product_home.jpg",
-    onLoadTitle: "Classic mafia long sleave",
+    onLoadTitle: "Classic mafia long sleeve",
     onLoadSubTitles: "$48.98",
     hoverSubTitles: ["s", "m", "l"],
-    customize: "ClassicMafiaLongSleave",
+    customize: "ClassicMafiaLongSleeve",
   },
   {
     onLoadImg: "/img/topProductImage/03Product_home.jpg",
