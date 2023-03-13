@@ -14,12 +14,14 @@ const StickyCollectionDiv = styled.div`
   h3 {
     font-weight: 500;
     font-size: 3.4em;
+
     @media screen and (max-width: 1200px) {
-      font-size: 2.5em;
+      font-size: 2.4rem;
       margin-top: 15px;
     }
+
     @media screen and (max-width: 900px) {
-      font-size: 2.5em;
+      font-size: 1.25rem;
       margin-top: 15px;
     }
   }
@@ -117,18 +119,17 @@ const StickyCollection = () => {
                   xs={12}
                   style={{
                     alignSelf: "flex-end",
+                    margin: "100px 0 30px 0",
                   }}
                 >
                   <Grid container spacing={2}>
-                    <Grid item xs={5.6}>
+                    <Grid item xs={10} sm={8}>
                       <h3>24KFOREVER</h3>
                       <p>
                         “NATURES FIRST GREEN IS GOLD” ©2023 — STAYGOLDSTUDIOS
                       </p>
                       <p></p>
                     </Grid>
-
-                    <Grid item xs={6.4}></Grid>
                   </Grid>
                 </Grid>
               </Grid>
@@ -151,7 +152,6 @@ function RightImg() {
         style={{
           width: "100%",
           height: "auto",
-          paddingTop: "50px",
         }}
         src="/img/bigImage.jpg"
         alt="img-alt"
