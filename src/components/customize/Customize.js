@@ -77,13 +77,7 @@ const Customize = ({ itm }) => {
     itm;
 
   useEffect(() => {
-    setTimeout(() => {
-      document.querySelector(".for-scroll-up").scrollIntoView({
-        behavior: "smooth",
-        block: "end",
-        inline: "nearest",
-      });
-    }, 300);
+    window.scrollTo(0, 0);
   }, [itm]);
 
   return (
