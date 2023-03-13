@@ -8,6 +8,12 @@ import { useState } from "react";
 const CatalogContentDivForViewCollection = styled.div`
   width: 100%;
 
+  .sm-right {
+    @media screen and (max-width: 600px) {
+      text-align: right;
+    }
+  }
+
   .view-collection-txt {
     text-align: right;
   }
@@ -65,13 +71,7 @@ const ViewCollection = () => {
   return (
     <CatalogContentDivForViewCollection>
       <div className="top-div">
-        <Grid
-          container
-          spacing={1.3}
-          style={{
-            padding: "0 10px",
-          }}
-        >
+        <Grid container spacing={1.3}>
           <Grid item xs={6} sm={3}>
             <div>
               <h4>24k 2023</h4>
@@ -87,7 +87,7 @@ const ViewCollection = () => {
               }}
             >
               <div>
-                <h4>NEW ARRIVALS</h4>
+                <h4 className="sm-right">NEW ARRIVALS</h4>
               </div>
             </Box>
           </Grid>

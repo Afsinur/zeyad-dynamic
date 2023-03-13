@@ -9,6 +9,12 @@ import { useState } from "react";
 export const CatalogContentDivForViewCollectionRelated = styled.div`
   width: 100%;
 
+  .sm-right {
+    @media screen and (max-width: 600px) {
+      text-align: right;
+    }
+  }
+
   .view-collection-txt-related {
     color: #c4c4c4;
 
@@ -89,13 +95,7 @@ const RelatedViewCollection = () => {
   return (
     <CatalogContentDivForViewCollectionRelated>
       <div className="top-div">
-        <Grid
-          container
-          spacing={1.3}
-          style={{
-            padding: "0 10px",
-          }}
-        >
+        <Grid container spacing={1.3}>
           <Grid item xs={6} sm={3}>
             <div>
               <h4>RELATED ITEMS</h4>
@@ -111,30 +111,12 @@ const RelatedViewCollection = () => {
               }}
             >
               <div>
-                <h4>24k 2023</h4>
+                <h4 className="sm-right">24k 2023</h4>
               </div>
             </Box>
           </Grid>
-          <Grid item xs={6} sm={3}>
-            <div></div>
-          </Grid>
-          <Grid item xs={6} sm={3}>
-            <Box
-              sx={{
-                display: {
-                  sm: "none",
-                  md: "inherit",
-                },
-              }}
-            >
-              <div>
-                {/* <h4 className="view-collection-txt-related">
-                  <span>PREV</span>
-                  <span>NEXT</span>
-                </h4> */}
-              </div>
-            </Box>
-          </Grid>
+          <Grid item xs={6} sm={3}></Grid>
+          <Grid item xs={6} sm={3}></Grid>
         </Grid>
       </div>
 
