@@ -1,14 +1,14 @@
 import Header from "../../../components/header";
 import Footer from "../../../components/footer";
-import RelatedViewCollection, {
-  CatalogContentDivForViewCollectionRelated,
-} from "../../../components/home/relatedViewCollection";
 import Customize from "../../../components/customize/Customize";
+
+import { CatalogContentDivForViewCollectionRelated } from "../../../components/home/relatedViewCollection";
 import { useState } from "react";
 import { RelatedClassicMafiaTee } from "../../../api/relatedproduct/RelatedClassicMafiaTee";
 import { ImgInfoContainer } from "../../../components/home/PrintOneImgBoxForOnlyBottom";
 import { Box, Grid } from "@mui/material";
 import { Link } from "react-router-dom";
+
 const ClassicMafiaTee = () => {
   const [relatedProduct, setRelatedProduct] = useState(RelatedClassicMafiaTee);
 
@@ -32,7 +32,6 @@ const ClassicMafiaTee = () => {
     },
   ];
 
-  console.log(relatedProduct);
   return (
     <>
       <main>
@@ -40,6 +39,7 @@ const ClassicMafiaTee = () => {
         {imgDataArr.map((itm, i) => (
           <Customize itm={itm} key={i} />
         ))}
+
         <CatalogContentDivForViewCollectionRelated>
           <div className="top-div">
             <Grid
