@@ -32,6 +32,7 @@ let ImgInfoContainer = styled.div`
       .dflex {
         display: flex;
         justify-content: space-between;
+
         &.dnone {
           display: none;
         }
@@ -71,6 +72,7 @@ let ImgInfoContainer = styled.div`
     .dflex {
       display: flex;
       justify-content: space-between;
+      flex-direction: column;
     }
     .absoluteData {
       position: absolute;

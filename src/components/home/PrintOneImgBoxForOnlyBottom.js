@@ -71,6 +71,7 @@ export const ImgInfoContainer = styled.div`
     .dflex {
       display: flex;
       justify-content: space-between;
+      flex-direction: column;
     }
     .absoluteData {
       position: absolute;
